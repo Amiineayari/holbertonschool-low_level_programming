@@ -1,73 +1,51 @@
-include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
-
+#include "3-calc.h"
 /**
- * op_add - function add tow int
- * @a: int
- * @b: int
- * Return: sum
+ * op_add - function
+ * @a:input var
+ * @b:input var
+ * Return:int
  */
-
 int op_add(int a, int b)
 {
   return (a + b);
 }
-
 /**
- * op_sub - function that subtraction tow int
- * @a: int
- * @b: int
- * Return: difference
+ * op_sub - function
+ * @a:input var
+ * @b:input var
+ * Return:int
  */
-
 int op_sub(int a, int b)
 {
   return (a - b);
 }
-
 /**
- * op_mul - function operation milti
- * @a: int
- * @b: int
- * Return: product
+ * op_mul - function
+ * @a:input var
+ * @b:input var
+ * Return:int
  */
-
 int op_mul(int a, int b)
 {
   return (a * b);
 }
-
 /**
- * op_div - function opperation division
- * @a: int
- * @b: int
- * Return: result of division
+ * op_div - function
+ * @a:input var
+ * @b:input var
+ * Return:int
  */
-
 int op_div(int a, int b)
 {
-  if (b == 0)
-    {
-      printf("Error\n");
-      exit(100);
-    }
   return (a / b);
 }
-
 /**
- * op_mod - function make the remainder of the division
- * @a: int
- * @b: int
- * Return: the remainder of the division
+ * op_mod - function.
+ * @a:input var
+ * @b:input var
+ * Return:int
  */
-
 int op_mod(int a, int b)
 {
-  if (b == 0)
-    {
-      printf("Error\n");
-      exit(100);
-    }
   return (a % b);
 }
