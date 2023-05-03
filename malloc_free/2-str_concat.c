@@ -15,7 +15,7 @@ int l, l1, i, j;
 char *all;
 l = strlen(s1);
 l1 = strlen(s2);
-all = malloc((sizeof(char) * (l + l1)) +1);
+all = malloc((sizeof(char) * (l +l1)) +1);
 if (s1 == NULL && s2 == NULL)
 {
 all = "";
