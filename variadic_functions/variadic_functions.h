@@ -17,8 +17,8 @@ int _putchar(char c);
 
 typedef struct op
 {
-  char *op;
-  void (*f)(va_list);
+char *op;
+void (*f)(va_list);
 } op_t;
 
 int sum_them_all(const unsigned int n, ...);
